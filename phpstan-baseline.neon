@@ -1,0 +1,216 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Ascii\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Ascii.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Decimal\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Decimal.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Missing\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Missing.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingIf\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingIf.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingIf\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingIf.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingIf\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingIf.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingUnless\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingUnless.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingUnless\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingUnless.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingUnless\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingUnless.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWith\\:\\:__construct\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWith.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWith\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWith.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWith\\:\\:\\$fields type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWith.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWithAll\\:\\:__construct\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWithAll.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWithAll\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWithAll.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\MissingWithAll\\:\\:\\$fields type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/MissingWithAll.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Negative\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Negative.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Positive\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Positive.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\Present\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/Present.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentIf\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentIf.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentIf\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentIf.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentIf\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentIf.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentUnless\\:\\:__construct\\(\\) has parameter \\$values with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentUnless.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentUnless\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentUnless.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentUnless\\:\\:\\$values type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentUnless.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWith\\:\\:__construct\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWith.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWith\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWith.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWith\\:\\:\\$fields type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWith.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWithAll\\:\\:__construct\\(\\) has parameter \\$fields with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWithAll.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWithAll\\:\\:parameters\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWithAll.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Datobs\\\\Attributes\\\\Validation\\\\PresentWithAll\\:\\:\\$fields type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Attributes/Validation/PresentWithAll.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 2
+			path: src/Casts/CarbonImmutableCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\Casts\\\\CarbonImmutableCast\\:\\:cast\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Casts/CarbonImmutableCast.php
+
+		-
+			message: "#^Cannot cast mixed to float\\.$#"
+			count: 1
+			path: src/DataPipes/CastPrimitivePropertiesDataPipe.php
+
+		-
+			message: "#^Cannot cast mixed to int\\.$#"
+			count: 1
+			path: src/DataPipes/CastPrimitivePropertiesDataPipe.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/DataPipes/CastPrimitivePropertiesDataPipe.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\DataPipes\\\\CastPrimitivePropertiesDataPipe\\:\\:handle\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/DataPipes/CastPrimitivePropertiesDataPipe.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Datobs\\\\DataPipes\\\\ReplaceEmptyStringsWithNullDataPipe\\:\\:handle\\(\\) has parameter \\$creationContext with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/DataPipes/ReplaceEmptyStringsWithNullDataPipe.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
